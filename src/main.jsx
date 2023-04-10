@@ -9,6 +9,7 @@ import {
 import Statistic from './Component/Statistic/Statistic';
 import AppliedJobs from './Component/AppliedJobs/AppliedJobs';
 import Blog from './Component/Blog/Blog';
+import Home from './Component/Home/Home';
 
 
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
+      {
+        path: '/',
+        element: <Home />,
+      },
       {
         path: '/statistic',
         element: <Statistic />,
