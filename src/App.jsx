@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './assets/Component/NavBar/NavBar';
 import { Outlet } from 'react-router-dom';
+import NavBar from './Component/NavBar/NavBar';
 
 const App = () => {
   return (
