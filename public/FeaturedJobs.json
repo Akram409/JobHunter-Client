@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "company_logo": "../resources/All Images/google-1-1 1.png",
+    "job_title": "Technical Database Engineer",
+    "company_name": "Google LLC",
+    "remote_or_onsite": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100k - $150k",
+    "job_description": "We're looking for a skilled software engineer to join our team and help us build world-class software products.",
+    "job_responsibility": "Design and develop software applications using cutting-edge technologies.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "5+ years of software development experience.",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "jobs@acmecorp.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "../resources/All Images/netflix-4 1.png",
+    "job_title": "Senior Product Designer",
+    "company_name": "Netflix",
+    "remote_or_onsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We're seeking a talented marketing manager to help us drive growth and increase brand awareness.",
+    "job_responsibility": "Develop and execute marketing campaigns across a variety of channels.",
+    "educational_requirements": "Bachelor's degree in Marketing or related field.",
+    "experiences": "3+ years of experience in marketing.",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "jobs@bigcorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "../resources/All Images/tesla-9 1.png",
+    "job_title": "Graphic Designer",
+    "company_name": "Small Co",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$30 - $50 per hour",
+    "job_description": "We're looking for a creative and talented graphic designer to help us with a variety of design projects.",
+    "job_responsibility": "Create compelling designs for marketing collateral, websites, and other materials.",
+    "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+    "experiences": "2+ years of experience in graphic design.",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "jobs@smallco.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "../resources/All Images/CareerHub.png",
+    "job_title": "Data Analyst",
+    "company_name": "Analytics Co",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We're seeking a talented data analyst to help us analyze and interpret complex data sets.",
+    "job_responsibility": "Develop and maintain data models, perform statistical analysis, and create visualizations to communicate insights.",
+    "educational_requirements": "Bachelor's degree in Statistics, Computer Science, or related field.",
+    "experiences": "2+ years of experience in video editing.",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "jobs@smallco.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "../resources/All Images/Group 10021.png",
+    "job_title": "Software Engineer",
+    "company_name": "ABC Company",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We are seeking a highly motivated software engineer to join our team. The ideal candidate will have experience in developing and maintaining complex web applications.",
+    "job_responsibility": "Responsibilities include designing and developing software solutions, testing code, debugging programs, and collaborating with cross-functional teams to identify and solve complex problems.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+    "experiences": "3+ years of experience in software engineering.",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "jobs@abccompany.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "../resources/All Images/google-1-1 1.png",
+    "job_title": "Marketing Manager",
+    "company_name": "XYZ Company",
+    "remote_or_onsite": "Onsite",
+    "location": "New York City",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a talented marketing manager to join our team. The ideal candidate will have experience in developing and executing marketing strategies.",
+    "job_responsibility": "Responsibilities include managing marketing campaigns, analyzing market trends, and collaborating with cross-functional teams to develop marketing plans.",
+    "educational_requirements": "Bachelor's degree in Marketing or a related field.",
+    "experiences": "5+ years of experience in marketing.",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "jobs@xyzcompany.com"
+    }
+  }
+]
