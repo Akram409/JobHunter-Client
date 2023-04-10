@@ -1,0 +1,8 @@
+import { BeakerIcon } from '@heroicons/react/24/solid'
+<BreakerIcon />
+
+
+import Lottie from "lottie-react";
+import groovyWalkAnimation from "./groovyWalk.json";
+
+const App = () => <Lottie animationData={groovyWalkAnimation} loop={true} />;
