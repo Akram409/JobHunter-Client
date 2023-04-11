@@ -1,9 +1,21 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { FeaturedContext } from "../Home/Home";
 import FeaturedJob from "../Featuredjob/FeaturedJob";
 
 const FeaturedJobs = () => {
-  const FeaturedInfo = useContext(FeaturedContext);
+  let FeaturedInfo = useContext(FeaturedContext);
+  const [isSeeAll,setSeeAll] = useState(true)
+
+  const checkBtn = () =>{
+    setSeeAll(!isSeeAll)
+  }
+
+  if(isSeeAll)
+  {
+    FeaturedInfo = FeaturedInfo.slice(0,4)
+  }
+  
+
   return (
     <div className="mt-6 my-container">
       <div className="text-center">
@@ -18,13 +30,25 @@ const FeaturedJobs = () => {
           <FeaturedJob key={cardItem.id} cardItem={cardItem}></FeaturedJob>
         ))}
       </div>
-      <div className="text-center mt-10">
+      {
+        isSeeAll && <div className="text-center mt-12">
         {
-          <button className="bgc btn text-white">
+          <button onClick={() => checkBtn()} className="bgc btn text-white">
             See All Jobs
           </button>
         }
       </div>
+      }
+      {
+        !isSeeAll && <div className="text-center mt-12">
+        {
+          <button onClick={() => checkBtn()} className="bgc btn text-white">
+            See Less Jobs
+          </button>
+        }
+      </div>
+      }
+      
     </div>
   );
 };
