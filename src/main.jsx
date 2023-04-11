@@ -10,6 +10,7 @@ import Statistic from './Component/Statistic/Statistic';
 import AppliedJobs from './Component/AppliedJobs/AppliedJobs';
 import Blog from './Component/Blog/Blog';
 import Home from './Component/Home/Home';
+import FeaturedJobDetails from './Component/FeaturedJobDetails/FeaturedJobDetails';
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog />,
+      },
+      {
+        path: '/featuredJob/:id',
+        element: <FeaturedJobDetails />,
       },
     ]
   },

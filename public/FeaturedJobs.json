@@ -12,10 +12,8 @@
     "job_responsibility": "Design and develop software applications using cutting-edge technologies.",
     "educational_requirements": "Bachelor's degree in Computer Science or related field.",
     "experiences": "5+ years of software development experience.",
-    "contact_information": {
-      "phone": "555-1234",
-      "email": "jobs@acmecorp.com"
-    }
+    "phone": "555-1234",
+    "email": "jobs@acmecorp.com"
   },
   {
     "id": 2,
@@ -30,10 +28,8 @@
     "job_responsibility": "Develop and execute marketing campaigns across a variety of channels.",
     "educational_requirements": "Bachelor's degree in Marketing or related field.",
     "experiences": "3+ years of experience in marketing.",
-    "contact_information": {
-      "phone": "555-5678",
-      "email": "jobs@bigcorp.com"
-    }
+    "phone": "555-5678",
+    "email": "jobs@bigcorp.com"
   },
   {
     "id": 3,
@@ -48,10 +44,8 @@
     "job_responsibility": "Create compelling designs for marketing collateral, websites, and other materials.",
     "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
     "experiences": "2+ years of experience in graphic design.",
-    "contact_information": {
-      "phone": "555-9012",
-      "email": "jobs@smallco.com"
-    }
+    "phone": "555-9012",
+    "email": "jobs@smallco.com"
   },
   {
     "id": 4,
@@ -66,10 +60,8 @@
     "job_responsibility": "Develop and maintain data models, perform statistical analysis, and create visualizations to communicate insights.",
     "educational_requirements": "Bachelor's degree in Statistics, Computer Science, or related field.",
     "experiences": "2+ years of experience in video editing.",
-    "contact_information": {
-      "phone": "555-9012",
-      "email": "jobs@smallco.com"
-    }
+    "phone": "555-9012",
+    "email": "jobs@smallco.com"
   },
   {
     "id": 5,
@@ -84,10 +76,8 @@
     "job_responsibility": "Responsibilities include designing and developing software solutions, testing code, debugging programs, and collaborating with cross-functional teams to identify and solve complex problems.",
     "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
     "experiences": "3+ years of experience in software engineering.",
-    "contact_information": {
-      "phone": "555-1234",
-      "email": "jobs@abccompany.com"
-    }
+    "phone": "555-1234",
+    "email": "jobs@abccompany.com"
   },
   {
     "id": 6,
@@ -102,9 +92,7 @@
     "job_responsibility": "Responsibilities include managing marketing campaigns, analyzing market trends, and collaborating with cross-functional teams to develop marketing plans.",
     "educational_requirements": "Bachelor's degree in Marketing or a related field.",
     "experiences": "5+ years of experience in marketing.",
-    "contact_information": {
-      "phone": "555-5678",
-      "email": "jobs@xyzcompany.com"
-    }
+    "phone": "555-5678",
+    "email": "jobs@xyzcompany.com"
   }
 ]

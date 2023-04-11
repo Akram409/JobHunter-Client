@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-black text-white px-20 pt-36 pb-10">
       <div className='grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 gap-9 '>
         <div className="box">
-          <h1 className="card-title text-white text-4xl mb-3">CareerHub</h1>
+          <h1 className="card-title text-white text-4xl mb-3">JobHunter</h1>
           <p>
             There are many variations of passages of Lorem Ipsum , but the
             majority have suffered alteration in some form.
@@ -44,8 +44,8 @@ const Footer = () => {
       </div>
       <div className="horizontal my-12"></div>
       <div className="flex justify-between">
-            <p>@2023 CareerHub. All Rights Reserved</p>
-            <p>Powered by CareerHub</p>
+            <p>@2023 JobHunter. All Rights Reserved</p>
+            <p>Powered by JobHunter</p>
         </div>
     </div>
   );

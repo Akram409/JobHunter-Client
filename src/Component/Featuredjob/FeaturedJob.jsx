@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const FeaturedJob = ({ cardItem }) => {
-    const {company_logo,company_name,remote_or_onsite,fulltime_or_parttime,location,salary,job_title} = cardItem
+    const {id,company_logo,company_name,remote_or_onsite,fulltime_or_parttime,location,salary,job_title} = cardItem
 
   return (
     <div className=" shadow-2xl temp p-10">
@@ -23,7 +23,7 @@ const FeaturedJob = ({ cardItem }) => {
             <p>{salary}</p>
           </div>
           <div className="navbar-end mt-5">
-          <Link to="/" className="bgc btn text-white">View Details</Link>
+          <Link to={`/featuredJob/${id}`} className="bgc btn text-white">View Details</Link>
         </div>
         </div>
       </div>
