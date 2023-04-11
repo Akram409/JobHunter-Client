@@ -18,7 +18,13 @@ const FeaturedJobs = () => {
           <FeaturedJob key={cardItem.id} cardItem={cardItem}></FeaturedJob>
         ))}
       </div>
-      
+      <div className="text-center mt-10">
+        {
+          <button className="bgc btn text-white">
+            See All Jobs
+          </button>
+        }
+      </div>
     </div>
   );
 };
