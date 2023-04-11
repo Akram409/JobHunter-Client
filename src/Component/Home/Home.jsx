@@ -1,12 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { createContext } from "react";
+import { Link, useLoaderData } from "react-router-dom";
 import Lottie from "lottie-react";
 import reader from "../../assets/team-work.json";
 import Jobs from "../Jobs/Jobs";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
+
+export const FeaturedContext = createContext()
 
 const Home = () => {
+  const FeaturedData = useLoaderData()
+
   return (
-    <>
+    <FeaturedContext.Provider value={FeaturedData}>
       <div className="my-container flex flex-col items-center justify-between lg:flex-row">
         {/* Text Content */}
         <div className="mb-10 lg:max-w-lg  lg:pr-5 lg:mb-0">
@@ -45,7 +50,8 @@ const Home = () => {
         </div>
       </div>
       <Jobs />
-    </>
+      <FeaturedJobs />
+    </FeaturedContext.Provider>
   );
 };
 

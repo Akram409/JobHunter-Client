@@ -113,7 +113,7 @@ const NavBar = () => {
           )}
         </div>
         <div className="navbar-end">
-          <a className="bgc btn text-white">Star Applying</a>
+          <Link to="/" className="bgc btn text-white">Star Applying</Link>
         </div>
       </div>
     </nav>

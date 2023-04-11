@@ -22,6 +22,8 @@ export default {
           warning: "#B46D08",
 
           error: "#EC8C79",
+
+          word: "#757575;",
         },
       },
     ],
