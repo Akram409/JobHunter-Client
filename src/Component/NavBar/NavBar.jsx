@@ -121,7 +121,7 @@ const NavBar = () => {
           )}
         </div>
         <div className="navbar-end">
-          <Link to="/" className="bgc btn text-white">Star Applying</Link>
+          <Link to="/jobs" className="bgc btn text-white">Start Applying</Link>
         </div>
       </div>
     </nav>

@@ -26,7 +26,7 @@ const FeaturedJobs = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10">
-        {FeaturedInfo.map((cardItem) => (
+        {FeaturedInfo && FeaturedInfo.map((cardItem) => (
           <FeaturedJob key={cardItem.id} cardItem={cardItem}></FeaturedJob>
         ))}
       </div>
