@@ -1,35 +1,10 @@
 [
-    {
-      "name": "Assignment 1",
-      "mark": 60
-    },
-    {
-      "name": "Assignment 2",
-      "mark": 60
-    },
-    {
-      "name": "Assignment 3",
-      "mark": 50
-    },
-    {
-      "name": "Assignment 4",
-      "mark": 58
-    },
-    {
-      "name": "Assignment 5",
-      "mark": 32
-    },
-    {
-      "name": "Assignment 6",
-      "mark": 30
-    },
-    {
-      "name": "Assignment 7",
-      "mark": 60
-    },
-    {
-      "name": "Assignment 8",
-      "mark": 60
-    }
-  ]
-  
+  { "name": "Assignment 1", "mark": 60 },
+  { "name": "Assignment 2", "mark": 60 },
+  { "name": "Assignment 3", "mark": 50 },
+  { "name": "Assignment 4", "mark": 58 },
+  { "name": "Assignment 5", "mark": 32 },
+  { "name": "Assignment 6", "mark": 30 },
+  { "name": "Assignment 7", "mark": 60 },
+  { "name": "Assignment 8", "mark": 60 }
+]
