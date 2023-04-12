@@ -9,6 +9,7 @@ import {
 } from "@heroicons/react/24/solid";
 import './FeaturedJobDetails.css'
 import { addToDb, getShoppingCart } from "../../fakedb/fakedb";
+import { toast } from "react-toastify";
 
 const FeaturedJobDetails = () => {
   const featureData = useParams();
@@ -29,7 +30,8 @@ const FeaturedJobDetails = () => {
   }, [featureData.id, oldFeaturedData]);
 
   const handleFeaturedJob = (id) =>{
-    const check = getShoppingCart()
+    let check = []
+    toast.success("You Successfully Applied the Job!")
     addToDb(id)
   }
 

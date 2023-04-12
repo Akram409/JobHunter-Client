@@ -24,6 +24,14 @@ const NavBar = () => {
           <ul className="space-x-8 lg:flex">
             <li>
                 <NavLink 
+                to='/' 
+                className={({ isActive }) => (isActive ? 'active' : 'default')}
+                >
+                    Home
+                </NavLink>
+            </li>
+            <li>
+                <NavLink 
                 to='/statistic' 
                 className={({ isActive }) => (isActive ? 'active' : 'default')}
                 >
