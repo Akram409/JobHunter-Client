@@ -42,10 +42,10 @@ const router = createBrowserRouter([
         path: '/featuredJob/:id',
         element: <FeaturedJobDetails />,
       },
-      // {
-      //   path: "*",
-      //   element: <Error />,
-      // }
+      {
+        path: "*",
+        element: <Error />,
+      }
     ]
   },
 ]);

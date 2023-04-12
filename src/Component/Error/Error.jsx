@@ -1,6 +1,6 @@
 import React from "react";
 import "./Error1.jsx";
-// import "./Error.css";
+import "./Error.css";
 
 
 const Error = () => {
@@ -14,10 +14,10 @@ const Error = () => {
   <a target="_blank" href="https://www.enationalelectronics.com">
     <div className="container">
       <div className="row">
-        <div className="col-sm-12 col-md-12 mt-5 mb-5">
+        <div className="col-sm-12 col-md-12 mt-5 mb-7">
           <svg
             width="100%"
-            height="100vh"
+            height="auto"
             viewBox="0 0 636 324"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
