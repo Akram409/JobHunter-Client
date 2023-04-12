@@ -94,6 +94,11 @@ const NavBar = () => {
                 <nav>
                   <ul className='space-y-4'>
                     <li>
+                      <Link to='/' className='default'>
+                        Home
+                      </Link>
+                    </li>
+                    <li>
                       <Link to='/statistic' className='default'>
                         Statistic
                       </Link>
