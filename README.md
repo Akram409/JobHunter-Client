@@ -1,6 +1,6 @@
 ## Project Name: JobHunter
 
-Live Link : [JobHunter](https://apple-mac-studio.netlify.app/).
+Live Link : [JobHunter](https://splendid-trifle-145681.netlify.app/).
 
 ## Basic Project Structure Setup Details
 

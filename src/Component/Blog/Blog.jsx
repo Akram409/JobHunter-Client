@@ -2,6 +2,10 @@ import React from "react";
 
 const Blog = () => {
   return (
+    <>
+      <div className="my-container text-center pic mt-7 mb-10">
+        <h1 className="text-3xl font-bold">Blogs</h1>
+      </div>
     <div className="mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 my-container">
         <div className="card bg-base-100 shadow-2xl">
@@ -30,6 +34,7 @@ const Blog = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
