@@ -7,10 +7,9 @@ import Error from './Component/Error/Error';
 const App = () => {
   return (
     <div>
-      {/* <NavBar></NavBar>
+      <NavBar></NavBar>
       <Outlet/>
-      <Footer /> */}
-      <Error />
+      <Footer />
     </div>
   );
 };

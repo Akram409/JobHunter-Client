@@ -69,7 +69,7 @@ export default function App() {
       <PolarAngleAxis dataKey="name" />
       <PolarRadiusAxis />
       <Radar
-        name="Akram"
+        name="Marks"
         dataKey="A"
         stroke="#8884d8"
         fill="#8884d8"

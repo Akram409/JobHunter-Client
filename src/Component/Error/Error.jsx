@@ -1,6 +1,7 @@
 import React from "react";
-import "./Error.css";
 import "./Error1.jsx";
+// import "./Error.css";
+
 
 const Error = () => {
   return (

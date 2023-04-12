@@ -11,6 +11,7 @@ import AppliedJobs from './Component/AppliedJobs/AppliedJobs';
 import Blog from './Component/Blog/Blog';
 import Home from './Component/Home/Home';
 import FeaturedJobDetails from './Component/FeaturedJobDetails/FeaturedJobDetails';
+import Error from './Component/Error/Error';
 
 
 const router = createBrowserRouter([
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
         path: '/featuredJob/:id',
         element: <FeaturedJobDetails />,
       },
+      // {
+      //   path: "*",
+      //   element: <Error />,
+      // }
     ]
   },
 ]);
