@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import React, { useContext, useState } from "react";
 import { FeaturedContext } from "../Home/Home";
 import FeaturedJob from "../Featuredjob/FeaturedJob";
 
